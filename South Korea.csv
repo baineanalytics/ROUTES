@@ -1,6 +1,0 @@
-"","Year","Date","Database","Location","City..Country","Origin","Transit","Destination","Weight..kg.","Number","Airline","Mode.of.Transport","Method.of.Detection","Obfuscation.Method","Species"
-"478",2015,"12-Aug-15","Rhino Horn","Noi Bai Airport","Hanoi, Vietnam","Africa","South Korea","Hanoi, Vietnam","4.76",1,"","Air Freight","","",""
-"638",2013,"27-Nov-13","Ivory","Shenyang Taoxian Airport","Shenyang, China","Kenya","Seoul, South Korea","Shenyang, China","8.77",NA,"","Unknown","","",""
-"656",2014,"16-Feb-14","Ivory","Siem Reap Airport","Siem Reap, Cambodia","Angola","South Korea; Siem Reap, Cambodia","Hanoi, Vietnam","79",NA,"","Luggage","Custom Clearance","Placed in Luggage",""
-"670",2014,"10-Jun-14","Ivory","Hong Kong Airport","Hong Kong, China","Angola","Ethiopia; Hong Kong, China; South Korea","Cambodia","790",NA,"","Unknown","","",""
-"721",2015,"12-Aug-15","Ivory","Noi Bai Airport","Hanoi, Vietnam","","South Korea","Hanoi, Vietnam","95.54",NA,"","Airfreight",""," packages show two Vietnamese names: Pham Van Luat and Vu Thanh Hung.",""
