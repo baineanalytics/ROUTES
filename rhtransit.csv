@@ -1,0 +1,32 @@
+"","country","Origin","Transit","Destination","sum"
+"175625","Belgium",0,1,0,1
+"175631","Cambodia",0,0,1,1
+"175636","China",0,0,25,25
+"175642","Democratic Republic of the Congo",2,0,0,2
+"175643","Egypt",1,0,0,1
+"175646","Ethiopia",2,1,0,3
+"175647","France",4,2,0,6
+"175654","Indonesia",0,0,1,1
+"175657","Ireland",0,0,1,1
+"175659","Italy",2,0,0,2
+"175665","Kenya",1,8,0,9
+"175668","Laos",0,1,2,3
+"175673","Malawi",0,1,0,1
+"175674","Malaysia",0,1,2,3
+"175681","Mozambique",18,1,0,19
+"175682","Myanmar",0,1,0,1
+"175683","Namibia",1,0,0,1
+"175685","Netherlands",0,1,0,1
+"175689","Nigeria",3,1,0,4
+"175695","Portugal",1,0,0,1
+"175696","Qatar",0,9,1,10
+"175702","Singapore",0,1,0,1
+"175705","South Africa",8,3,0,11
+"175706","South Korea",0,1,0,1
+"175715","Taiwan",0,0,1,1
+"175717","Thailand",2,4,3,9
+"175721","Uganda",2,1,0,3
+"175722","UK",1,0,0,1
+"175724","United Arab Emirates",1,4,0,5
+"175727","Vietnam",0,0,18,18
+"175728","Zambia",1,0,0,1

@@ -1,0 +1,65 @@
+setwd("E:/ROUTES/Year One Airport Seizure Analysis/R")
+
+##HCMC##
+
+full <- read.csv("transittots.csv")
+
+seiz <- data.frame(subset(full, Seizure.City == "Ho Chi Minh City"))
+
+orig <- data.frame(subset(full, Origin.City1 == "Ho Chi Minh City"))
+
+tc1 <- data.frame(subset(full, Transit.City1 == "Ho Chi Minh City"))
+tc2 <- data.frame(subset(full, Transit.City2 == "Ho Chi Minh City"))
+tc3 <- data.frame(subset(full, Transit.City3 == "Ho Chi Minh City"))
+tc4 <- data.frame(subset(full, Transit.City4 == "Ho Chi Minh City"))
+trans <- rbind(tc1, tc2, tc3, tc4)
+
+d1 <- data.frame(subset(full, Destination.City1 == "Ho Chi Minh City"))
+d2 <- data.frame(subset(full, Destination.City2 == "Ho Chi Minh City"))
+d3 <- data.frame(subset(full, Destination.City.3 == "Ho Chi Minh City"))
+dest <- rbind(d1,d2,d3)
+
+hcmc <- rbind(seiz, orig, trans, dest)
+
+hcmc <- unique(hcmc[,1:25])
+
+ids <- hcmc$ID
+
+tot <- read.csv("tot.csv")
+
+ho <- subset(tot, ID %in% ids)
+
+write.csv(ho, file = "HCMC_dat.csv")
+
+## JOBERG ##
+
+full <- read.csv("transittots.csv")
+
+seiz <- data.frame(subset(full, Seizure.City == "Johannesburg"))
+
+o1 <- data.frame(subset(full, Origin.City1 == "Johannesburg"))
+o2 <- data.frame(subset(full, Origin.City2 == "Johannesburg"))
+o3 <- data.frame(subset(full, Origin.City3 == "Johannesburg"))
+orig <- rbind(o1,o2,o3)
+
+tc1 <- data.frame(subset(full, Transit.City1 == "Johannesburg"))
+tc2 <- data.frame(subset(full, Transit.City2 == "Johannesburg"))
+tc3 <- data.frame(subset(full, Transit.City3 == "Johannesburg"))
+tc4 <- data.frame(subset(full, Transit.City4 == "Johannesburg"))
+trans <- rbind(tc1, tc2, tc3, tc4)
+
+d1 <- data.frame(subset(full, Destination.City1 == "Johannesburg"))
+d2 <- data.frame(subset(full, Destination.City2 == "Johannesburg"))
+d3 <- data.frame(subset(full, Destination.City.3 == "Johannesburg"))
+dest <- rbind(d1,d2,d3)
+
+joburg <- rbind(seiz, orig, trans, dest)
+joburgu <- unique(joburg[,1:25])
+
+ids <- joburg$ID
+
+tot <- read.csv("tot.csv")
+
+jb <- subset(tot, ID %in% ids)
+
+write.csv(jb, file = "Joburg_dat.csv")
